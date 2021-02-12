@@ -12,3 +12,12 @@ Instructions to setup alpine linux, specifiaclly on the HP Elitebook 850 G6
 
 TODO
 
+# Part C: QoL and other nice stuff
+
+## Sound
+
+- Enable detection of the sound card by adding `snd-intel-dspcfg.dsp_driver=1` to the kernel options
+
+# Part D: Other stuff
+
+- Blacklist the pcspkr module to prevent annoying beeping in TTY
