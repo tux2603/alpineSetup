@@ -14,6 +14,10 @@ TODO
 
 # Part C: QoL and other nice stuff
 
+## Anaconda
+
+- Anaconda is linked into glibc, so you will have to install glibc. Instrcutions are available [here](https://github.com/sgerrand/alpine-pkg-glibc)
+
 ## Sound
 
 - Enable detection of the sound card by adding `snd-intel-dspcfg.dsp_driver=1` to the kernel options
